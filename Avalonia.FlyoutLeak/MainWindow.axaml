@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Avalonia.FlyoutLeak.MainWindow"
+        Width="400"
+        Height="300"
+        Title="Avalonia.FlyoutLeak">
+
+    <TextBlock Text="Click Me" HorizontalAlignment="Center" VerticalAlignment="Center" PointerPressed="TextBlock_PointerPressed">
+        <FlyoutBase.AttachedFlyout>
+            <Flyout ShowMode="Standard">
+                <!-- Any InputElement within the Flyout will show the problem -->
+                <!-- <TextBlock>Mouse over this InputElement</TextBlock> -->
+                <Calendar />
+            </Flyout>
+        </FlyoutBase.AttachedFlyout>
+    </TextBlock>
+
+</Window>

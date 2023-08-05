@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.FlyoutLeak", "Avalonia.FlyoutLeak\Avalonia.FlyoutLeak.csproj", "{3C4B1F17-610F-4AC2-B439-15A2964A7C5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C4B1F17-610F-4AC2-B439-15A2964A7C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4B1F17-610F-4AC2-B439-15A2964A7C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4B1F17-610F-4AC2-B439-15A2964A7C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4B1F17-610F-4AC2-B439-15A2964A7C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
